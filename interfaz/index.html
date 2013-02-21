@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<title>Crear Aplicación Wowza</title>
+
+	<script src="js/HTML5_enabling_script.js"></script>
+	<script src="js/prefixfree.min.js"></script>
+	<script src="js/jquery.js"></script>
+		
+	<script src="js/funciones.js"></script>
+	
+	    <link rel="stylesheet" href="css/bootstrap.css">
+        
+    <link rel="stylesheet" href="css/style.css" />
+	
+</head>
+
+<body>
+	<header>
+		<h1>Crear Aplicacion</h1>
+	</header>
+	
+<form id="Datos">
+	<label for='txtNombreAplicacion'>Nombre de la Aplicacion</label>
+		</br>
+	<input type='text' id='txtNombreAplicacion' placeholder='Nombre Aplicacion'/>
+		</br></br>
+	<label for='txtNombreStream'>Nombre del Stream Principal:</label>
+		</br>
+	<input type='text' id='txtNombreStream' placeholder='Nombre Stream Principal'/>
+		</br></br>
+	<label for='txtNoPuntosMontaje'>Numero de Puntos de Montaje:</label>
+		</br>
+	<input type='number' min='2' id='txtNoPuntosMontaje' placeholder='Puntos de Montaje'/>
+		</br></br>
+	<label for='txtUsuario'>Usuario de Publicación:</label>
+		</br>
+	<input type='text' id='txtUsuario' placeholder='Usuario de Publicación'/>
+		</br></br>
+	<label for='txtClave'>Clave de Publicación:</label>
+		</br>
+	<input type='text' id='txtClave' placeholder='Clave de Publicación'/>
+		</br></br>
+	<label for='txtLimiteConcurrencias'>Límite de Concurrencias:</label>
+		</br>
+	<input type='number' min='0' id='txtLimiteConcurrencias' placeholder='Límite de Concurrencias' />
+
+	<br></br>
+	<center>
+		<input id='btnCrear' type='submit' value='crear' />
+	</center>
+</form>
+
+</body>
+</html>

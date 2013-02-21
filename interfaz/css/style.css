@@ -1,0 +1,41 @@
+body
+{
+	background: url("imagenes/background2.jpg"); /*#f5f5f5;*/
+	font-family: "Helvetica";
+	font-size: 16px;
+	margin: 0 auto;
+	text-align: center;
+	width: 600px;
+}
+
+footer, header, section
+{
+	background: #fff;
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.8) 0px 4px 10px;
+	color: white;
+	margin: 1em auto;
+	text-align: center;
+	padding: 1em;
+	width: 90%;
+}
+
+footer
+{
+color: black;
+}
+header
+{
+	padding: 2.5em 1em 0;
+	background: url("imagenes/logoCeHis.png") no-repeat 20px top,
+				url("imagenes/background1.jpg"); 
+	text-shadow: rgba(255,255,255,0.7) 2px 2px 10px;
+}
+#Datos
+{
+	background: white;
+	border-radius: 0.5em;
+	box-shadow: rgba(0,0,0,0.8) 0px 4px 10px;
+	display: inline-table;
+	padding: 0.2em;
+}
